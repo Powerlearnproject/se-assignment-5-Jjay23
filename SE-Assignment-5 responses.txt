@@ -1,0 +1,78 @@
+SE-Assignment-5
+Installation and Navigation of Visual Studio Code (VS Code)
+
+1. Installation of VS Code on Windows 11
+   - Prerequisites: Ensure you have a compatible Windows 11 operating system.
+   - Steps to download and install:
+     1. Go to the official Visual Studio Code website (https://code.visualstudio.com/).
+     2. Click on the "Download" button and select the Windows version.
+     3. Run the downloaded installer and follow the on-screen instructions to complete the installation.
+     4. Once installed, you can launch VS Code from the Windows Start menu or by searching for it.
+
+2. First-time Setup
+   - Initial configurations:
+     - Update the default theme to a preferred color scheme (e.g., Dark+ or One Dark Pro).
+     - Adjust the font size and font family for better readability.
+     - Enable the display of line numbers in the editor.
+     - Configure the editor to insert spaces instead of tabs.
+   - Important settings and extensions:
+     - Install essential extensions for your development needs, such as programming language support, code formatting, and debugging tools.
+     - Customize keyboard shortcuts for frequently used actions.
+     - Set up the integrated terminal to use your preferred shell (e.g., PowerShell, Git Bash).
+
+3. User Interface Overview
+   - Activity Bar: Provides quick access to different VS Code views and functionalities, such as Explorer, Search, Source Control, and Extensions.
+   - Side Bar: Displays the currently active view, which can be the Explorer, Search, Source Control, or other extensions.
+   -Editor Group: The main area where you write and edit your code.
+   - Status Bar: Provides information about the current file, programming language, and other useful indicators.
+
+4. Command Palette:
+   - The Command Palette is a powerful feature in VS Code that allows you to access a wide range of commands, settings, and actions.
+   - To open the Command Palette, press `Ctrl+Shift+P` (Windows/Linux) or `Cmd+Shift+P` (macOS).
+   - Examples of common tasks that can be performed using the Command Palette:
+     - Searching for and executing commands (e.g., "Open File," "Format Document," "Toggle Terminal").
+     - Changing the current programming language mode.
+     - Accessing settings and preferences.
+     - Launching built-in or installed extensions.
+
+5. Extensions in VS Code:
+   - Extensions are plugins that add additional functionality and capabilities to VS Code.
+   - To find, install, and manage extensions, use the Extensions view in the Side Bar or the Command Palette.
+   - Examples of essential extensions for web development:
+     - Language support (e.g., HTML, CSS, JavaScript, TypeScript)
+     - Linters and formatters (e.g., ESLint, Prettier)
+     - Debugging tools (e.g., Debugger for Chrome)
+     - Git and Version Control (e.g., GitLens)
+
+6. Integrated Terminal:
+   - The integrated terminal in VS Code allows you to perform various command-line operations without switching to an external terminal.
+   - To open the terminal, press `Ctrl+\`` (Windows/Linux) or `Ctrl+\`` (macOS).
+   - Advantages of using the integrated terminal:
+     - Seamless integration with the development environment.
+     - Ability to quickly run commands and scripts related to your project.
+     - Easily switch between different terminal profiles (e.g., PowerShell, Git Bash).
+
+7. File and Folder Management:
+   - Create new files and folders using the Explorer view in the Side Bar.
+   - Open files by clicking on them in the Explorer or using the "Open File" command in the Command Palette.
+   - Navigate between files and directories using the breadcrumb navigation at the top of the Editor Group.
+   - Use the keyboard shortcuts `Ctrl+P` (Windows/Linux) or `Cmd+P` (macOS) to quickly open files.
+
+8. Settings and Preferences:
+   - Access the settings by opening the Command Palette and searching for "Open Settings (UI)" or by clicking on the gear icon in the Extensions view.
+   - Change the theme by navigating to the "Appearance" section and selecting a preferred theme.
+   - Adjust the font size and font family in the "Editor" section.
+   - Customize keyboard shortcuts by opening the Command Palette and searching for "Open Keyboard Shortcuts".
+
+9. Debugging in VS Code:
+   - To set up and start debugging a program, you'll need to create a launch configuration file (`.vscode/launch.json`).
+   - Key debugging features in VS Code:
+     - Breakpoints: Set breakpoints in your code to pause execution and inspect variables.
+     - Debug Controls: Step through your code, resume execution, and access other debugging controls.
+     - Debug Console: Evaluate expressions and view debug output during the debugging session.
+
+10. Using Source Control:
+    - Integrate Git with VS Code for version control management.
+    - Initialize a new Git repository by opening the Command Palette and selecting "Git: Initialize Repository".
+    - Stage changes, create commits, and push to a remote repository using the Source Control view in the Side Bar.
+    - Utilize Git-related extensions like GitLens to enhance your version control experience.
